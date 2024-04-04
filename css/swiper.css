@@ -1,0 +1,25 @@
+div.swiper {
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+}
+
+div.swiper div.mySwiper2 {
+  width: inherit;
+  height: 400px;
+}
+
+div.swiper div.mySwiper2 div.swiper-wrapper {
+  width: inherit;
+  height: 400px;
+}
+
+div.swiper div.mySwiper2 div.swiper-wrapper div.swiper-slide {
+  width: 100%;
+  height: 400px;
+}
+div.swiper div.mySwiper2 div.swiper-wrapper div.swiper-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}

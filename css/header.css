@@ -1,0 +1,251 @@
+/*make header*/
+div.header {
+  width: 100%;
+  height: 108px;
+  box-shadow: 0px 1px 2px lightgrey;
+}
+
+div.header header {
+  width: 100%;
+  height: 108px;
+}
+
+/*make topheader*/
+div.header header div.topheader {
+  width: inherit;
+  height: 68px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+/*make logo*/
+div.header header div.topheader div.logo {
+  width: 115px;
+  height: 33px;
+  display: inline-block;
+  margin-right: -3px;
+  margin-top: 17.5px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+/*make svg*/
+div.header header div.topheader div.logo svg {
+  width: 115px;
+  height: 30px;
+}
+
+/*make search*/
+div.header header div.topheader div.search {
+  width: 1129px;
+  height: 44px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -3px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+/*make search box*/
+div.header header div.topheader div.search form {
+  display: block;
+  width: 600px;
+  height: 44px;
+  background-color: rgb(240, 240, 241);
+  border-radius: 8px;
+  padding-top: 12px;
+  margin-top: -12px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+/*make input*/
+div.header header div.topheader div.search form input[type="search"] {
+  display: inline-block;
+  width: 600px;
+  height: 44px;
+  background-color: rgb(240, 240, 241);
+  border-radius: 8px;
+  padding-top: 12px;
+  margin-top: -12px;
+  box-sizing: border-box;
+  padding: 0 16px;
+  border: unset;
+  outline: unset;
+  display: inline-block;
+}
+
+/*placeholder*/
+div.header
+  header
+  div.topheader
+  div.search
+  form
+  input[type="search"]::placeholder {
+  padding-right: 10px;
+  box-sizing: border-box;
+  font-family: yekan3;
+  color: rgb(129, 133, 139);
+  padding-right: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 44px;
+  display: inline-block;
+}
+/*make span*/
+div.header header div.topheader div.search form a{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+
+  vertical-align: top;
+  margin-top: -35px;
+}
+div.header header div.topheader div.search form a i{
+  font-size: 17px;
+margin-top: 5px;
+  color: rgb(161, 163, 168);
+}
+/*make register*/
+div.header header div.topheader div.register {
+  width: 200px;
+  height: 44px;
+  border-radius: 8px;
+  padding-top: 12px;
+  margin-right: -3px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+/*make login*/
+div.header header div.topheader div.register a.login {
+  width: 134px;
+  height: 40px;
+  display: inline-block;
+  margin-top: -10.5px;
+  margin-right: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 226);
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+div.header header div.topheader div.register a.login span {
+  color: rgb(12, 12, 12);
+  width: 87px;
+  height: 21px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: yekan1;
+  line-height: 40px;
+}
+div.header header div.topheader div.register a.login span i {
+  vertical-align: middle;
+  margin-right: 16px;
+}
+div.header header div.topheader div.register a.login span:nth-last-of-type(3) {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: rgb(12, 12, 12);
+  vertical-align: middle;
+}
+
+div.header header div.topheader div.register span.vertical {
+  display: inline-block;
+  width: 0.5px;
+  height: 24px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  background-color: rgb(224, 224, 226);
+  vertical-align: middle;
+}
+div.header header div.topheader div.register a i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+/*end make login*/
+/*make login*/
+div.header header div.menu {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  line-height: 40px;
+  display: inline-block;
+}
+
+div.header header div.menu div.cities {
+  width: 19%;
+  height: inherit;
+
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+div.header header div.menu div.cities span {
+  font-size: 17px;
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 105px;
+  line-height: 40px;
+}
+div.header header div.menu div.cities a {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: yekan3;
+  color: rgb(63, 64, 100);
+  text-decoration: none;
+}
+div.header header div.menu nav {
+  width: 80%;
+  height: inherit;
+  display: inline-block;
+}
+
+div.header header div.menu nav div {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  line-height: 40px;
+}
+
+div.header header div.menu nav div a {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: yekan1;
+  color: rgb(98, 102, 109);
+}
+
+div.header header div.menu nav div:nth-last-of-type(8) a {
+  color: rgb(63, 64, 100);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+div.header header div.menu nav div a i {
+  font-size: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+div.header header div.menu nav span {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: rgb(224, 224, 226);
+  vertical-align: middle;
+}
+/*end make header*/

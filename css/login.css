@@ -1,0 +1,96 @@
+@font-face {
+  font-family: yekan;
+  src: url("../font/Iran Yekan/IRANYekanWeb-Medium.woff2");
+  src: url("../font/Iran Yekan/IRANYekanWeb-Medium.eot");
+  src: url("../font/Iran Yekan/IRANYekanWeb-Medium.ttf");
+  src: url("../font/Iran Yekan/IRANYekanWeb-Medium.woff");
+}
+
+div.one {
+  width: 400px;
+  height: 440px;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  border: 1px solid rgb(213, 213, 213);
+  font-family: yekan;
+}
+div.one > svg {
+  padding: 32px;
+  width: 150px;
+  height: 50px;
+  padding-bottom: 5px;
+}
+div.one > div.two {
+  text-align: right;
+  color: black;
+  padding-right: 30px;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: yekan;
+  line-height: 40px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+div.one > div.two > span.three {
+  width: 0px;
+  height: 30px;
+}
+div.one > p {
+  direction: rtl;
+  text-align: right;
+  padding-right: 30px;
+  color: rgb(95, 94, 94);
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+div.one > div.four > input {
+  height: 48px;
+  width: 335px;
+  border-radius: 10px;
+  border: 1px solid rgb(211, 47, 47);
+  margin-bottom: -5px;
+  margin-top: 5px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+div.one > p.five {
+  color: rgb(204, 66, 66);
+  font-family: yekan;
+  font-size: 12px;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  margin-right: 4px;
+  box-sizing: border-box;
+}
+div.one > div.six > a {
+  height: 48px;
+  width: 333px;
+  border-radius: 10px;
+  background-color: rgb(245, 67, 76);
+  display: inline-block;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+div.one > div.seven > p {
+  color: rgb(95, 94, 94);
+  font-size: 11px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+div.one > div.seven > p > a {
+  color: rgb(91, 124, 235);
+  text-decoration: none;
+}
+div.one > div.four > input:active {
+  border: 1px solid rgb(255, 124, 53);
+  transition: all 1000ms;
+}
